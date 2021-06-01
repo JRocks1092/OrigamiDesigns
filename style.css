@@ -1,0 +1,84 @@
+.h1 {
+    color: white;
+    border: solid;    
+}
+
+.Content {
+    
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around; 
+    text-align: center;
+}
+
+.TopPanel{
+    
+    display: flex;        
+    flex-wrap: wrap; 
+    align-items: center;   
+    background-image: url("Images/Heading.png");   
+    justify-content: space-between;
+    background-color:black;
+    height: 300px;    
+}
+
+.BottomPanel {
+    
+    background-color: antiquewhite;     
+    
+}
+
+.row {
+
+    display: flex;
+
+}
+
+.heading{
+
+    font-family: Verdana, cursive;
+
+}
+.Images{
+
+    border: solid;  
+    margin-top: 100px;
+    border-color: black;
+    border-radius: 20px;        
+
+}
+
+.BottomPanelCredits{
+        
+    position:absolute;right: 0px;
+    margin-top: 1000px;  
+    position: absolute;bottom: 100px; 
+    position:absolute;top: 200px;  
+
+}
+
+.Body{
+
+    min-height: 1000px;    
+
+}
+
+.Header{
+    
+    color: white;  
+    position: absolute;right:35%;                 
+    font-family: cursive;  
+    text-align: center;           
+
+}
+.remarks{
+
+    position:absolute;right: 50px;
+    position:absolute;top: 200px;
+
+}
+.AboutOrigami{
+
+    font-family: -apple-system;
+
+}
